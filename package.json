@@ -1,0 +1,13 @@
+{
+  "name": "uae-medical-insurance-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "UAE medical insurance lead-generation website (zero-dependency static build)",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node serve.mjs",
+    "serve": "node serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
